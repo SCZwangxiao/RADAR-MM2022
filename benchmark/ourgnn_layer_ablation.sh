@@ -1,0 +1,9 @@
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l1_kwai_apparel.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l1_kwai_cosmetic.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l1_kwai_food.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l3_kwai_apparel.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l3_kwai_cosmetic.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l3_kwai_food.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l4_kwai_apparel.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l4_kwai_cosmetic.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l4_kwai_food.py 1 --validate --test-best

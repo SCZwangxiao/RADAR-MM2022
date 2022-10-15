@@ -1,0 +1,12 @@
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_apparel_common_only.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_cosmetic_common_only.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_food_common_only.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_apparel_lmf3.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_cosmetic_lmf3.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_food_lmf3.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_apparel_mean_reduce.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_cosmetic_mean_reduce.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_food_mean_reduce.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_apparel_selfatt_reduce.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_cosmetic_selfatt_reduce.py 1 --validate --test-best
+./tools/dist_train.sh configs/recommendation/ourgnn/ourgnn_l2_kwai_food_selfatt_reduce.py 1 --validate --test-best
