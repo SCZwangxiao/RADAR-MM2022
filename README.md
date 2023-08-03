@@ -1,6 +1,6 @@
 # RADAR
 
-Implementation of paper ``Micro-video Tagging via Jointly Modeling Social Influence and Tag Relation``.
+Implementation of paper ``Micro-video Tagging via Jointly Modeling Social Influence and Tag Relation`` ([paper PDF](https://arxiv.org/pdf/2303.08318.pdf)).
 
 In this paper, we study the problem of micro-video tagging, formulated as a link prediction problem in a video-tag network to jointly model social influence and tag relation. Our RADAR model derive a better video and tag representation through Behavior Spread modeling and visual and linguistic knowledge aggregation. Extensive experiments on industrial datasets of three verticals verify the superiority of our model compared with several state-of-the-art baselines.
 
