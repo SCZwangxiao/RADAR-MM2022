@@ -1,6 +1,6 @@
 # RADAR
 
-Implementation of paper ``Micro-video Tagging via Jointly Modeling Social Influence and Tag Relation`` ([paper PDF](https://arxiv.org/pdf/2303.08318.pdf)).
+Implementation of paper ``Micro-video Tagging via Jointly Modeling Social Influence and Tag Relation`` (Accepted by ACM Multimedia 2022) ([paper PDF](https://arxiv.org/pdf/2303.08318.pdf)).
 
 In this paper, we study the problem of micro-video tagging, formulated as a link prediction problem in a video-tag network to jointly model social influence and tag relation. Our RADAR model derive a better video and tag representation through Behavior Spread modeling and visual and linguistic knowledge aggregation. Extensive experiments on industrial datasets of three verticals verify the superiority of our model compared with several state-of-the-art baselines.
 
@@ -42,4 +42,23 @@ c. To reproduce Figure 7 in paper.
 ```bash
 bash benchmark/ourgnn_layer_ablation.sh # (a)
 python benchmark/ours_aan_sensi.py # (b)
+```
+
+# Citation
+```
+@inproceedings{xiao2022radar,
+  author       = {Xiao Wang and
+                  Tian Gan and
+                  Yinwei Wei and
+                  Jianlong Wu and
+                  Dai Meng and
+                  Liqiang Nie},
+  title        = {Micro-video Tagging via Jointly Modeling Social Influence and Tag
+                  Relation},
+  booktitle    = {{MM} '22: The 30th {ACM} International Conference on Multimedia, Lisboa,
+                  Portugal, October 10 - 14, 2022},
+  pages        = {4478--4486},
+  publisher    = {{ACM}},
+  year         = {2022},
+}
 ```
